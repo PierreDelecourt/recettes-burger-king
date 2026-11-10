@@ -1,0 +1,94 @@
+html {
+    background-color: #DDDDDD;
+}
+body{
+    background-color:  rgba(34,10,41,1);
+    width:90%;
+    margin: 5px auto;
+    padding: 25px 5px;
+}
+
+/* la zone avec les 3 images sélectionnées */
+
+#selection {
+    background-color:  rgba(255,255,255,0.2);
+    text-align : center;
+    padding : 5px 0px;
+    width:1000px;
+    margin : 3px auto;   
+}
+
+
+#selection #title {
+    font-weight : bold;
+    width:315px;
+    font-size: 20px;
+    text-align:center;
+    padding : 5px 0px;
+    margin: 5px auto;
+    width : 900px;
+    color : black;
+    font-family : sans-serif;
+    background-color : rgba(255,255,0,0.7);
+}
+
+
+#selection div.choisie {
+    height : 245px;
+    width : 315px;
+    margin : 5px;
+    display : inline-block;
+    text-align:center;
+    vertical-align:top;
+    background-color:  rgba(255,255,255,0.8);
+
+}
+
+
+#selection div.choisie img{
+    padding: 15px; 
+    width : 285px;
+}
+
+
+#zoneEchantillon button {
+    background-color : rgb(200,200,200);
+    font-weight : bold;    
+    color : black;
+    font-size : 20px;
+    width : 40px;
+    margin : 0px 10px;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#echantillon {    
+    width:1000px;
+    margin : 5px auto;
+    padding : 5px 0px;
+    background-color : rgba(0,128,128,0.6);
+    overflow : auto;
+    height : 280px;
+}
+
+#echantillon img {
+    width : 120px;
+    margin: 5px 11px;
+}
+
+
+/* la zone de texte qui apparaît lors du survol d'une image */
+#texte {
+    display : none;
+    font-size: 14px;
+    padding : 1% 2%;
+    position: fixed;
+    width : 46%;
+    left:25%;
+    top:370px;
+    color : black;
+    font-family : sans-serif;
+    background-color : rgba(255,255,80,0.9);
+    box-shadow: 0px 0px 8px 5px rgba(255,255,255,0.7);	
+    border-radius: 4px;
+}

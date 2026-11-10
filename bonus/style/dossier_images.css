@@ -1,0 +1,103 @@
+body {
+    background-image: url("../images/dossier_images/Fond_projet_TW.png");
+}
+
+header{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: x-large;
+    color: black;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.images {
+    display: flex;
+    gap: 50px; /* Espacement entre les div */
+    color: red;
+    border-radius: 10px;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+a{
+    color: black;
+}
+.images_dossier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.descriptions{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    border-radius: 10px;
+}
+
+body{
+    padding: 50px;
+    background-color: blue;
+    color : white;
+}
+
+.easteregg {
+    bottom: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    z-index: 1000;
+}
+
+.easteregg2 {
+    bottom: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    z-index: 1000;
+}
+
+.choice-section{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-section h2 {
+    margin-bottom: 20px; /* Ajoute un espace entre le h2 et le bouton */
+    text-align: center; /* Centre le texte du h2 */
+    font-size: 1.5em; /* Ajoute une taille de police */
+    color: black; /* Définit la couleur du texte */
+}
+
+.bouton-random button {
+    display: block; /* Permet de centrer le bouton */
+    margin: 0 auto; /* Centre le bouton horizontalement */
+    padding: 10px 20px; /* Ajoute un padding pour le bouton */
+    font-size: 1em; /* Définit la taille de la police */
+    background-color: #007BFF; /* Ajoute une couleur de fond */
+    color: white; /* Définit la couleur du texte */
+    border: none; /* Supprime la bordure */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+}
+
+a {
+    color: black;
+    text-decoration: none; /* Supprime le soulignement */
+}

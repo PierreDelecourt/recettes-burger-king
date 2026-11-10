@@ -1,0 +1,38 @@
+body {
+    background-image: url(../images/dossier_images/Fond_projet_TW.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Ajout d'un espace entre les images */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement si nécessaire */
+}
+.gallery-item {
+    text-align: center;
+    width: 200px; /* Ajusté pour correspondre à la taille des images */
+}
+.gallery-item img {
+    width: 200px; /* Largeur des images */
+    height: 200px; /* Hauteur des images */
+}
+h1 {
+    text-align: center;
+    font-size: 2cm;
+    margin-bottom: 20px;
+}
+
+.bouton-retour button {
+    display: block; /* Permet de centrer le bouton */
+    margin: 0 auto; /* Centre le bouton horizontalement */
+    padding: 10px 20px; /* Ajoute un padding pour le bouton */
+    font-size: 1em; /* Définit la taille de la police */
+    background-color: #007BFF; /* Ajoute une couleur de fond */
+    color: white; /* Définit la couleur du texte */
+    border: none; /* Supprime la bordure */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+}

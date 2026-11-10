@@ -1,0 +1,14 @@
+/* Centrer horizontalement l'élément contenant les boutons et définir sa largeur */
+#boutons {
+    width: 200px;
+    margin: 0 auto; /* Centre horizontalement */
+}
+
+/* Styles pour les span contenant les numéros */
+.choisie span.numero {
+    font-family: "sans-serif";
+    font-size: 100px;
+    position: relative; /* Nécessaire pour utiliser top */
+    top: 60px; /* Déplacement vers le bas */
+    color: rgba(0, 0, 200, 0.5); /* Couleur avec opacité */
+}
